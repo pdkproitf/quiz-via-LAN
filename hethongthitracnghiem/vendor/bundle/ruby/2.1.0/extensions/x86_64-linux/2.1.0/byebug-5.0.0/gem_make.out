@@ -1,0 +1,16 @@
+/usr/bin/ruby2.1 -r ./siteconf20150629-17329-1y5abxp.rb extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20150629-17329-1ilk22s/byebug
+installing default byebug libraries
