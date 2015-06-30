@@ -1,0 +1,179 @@
+role_list:
+- 
+  name: admin
+  desc: admin
+
+- 
+  name: user
+  desc: sinhvien
+
+user_list:
+- 
+  name: chuong
+  email: chuong@gmail.com
+  password: 12345678
+  gioitinh: nam
+  role_id: 2
+  lop_id: 1
+
+- 
+  name: phuc
+  email: phuc@gmail.com
+  password: 12345678
+  gioitinh: nu
+  role_id: 2
+  lop_id: 1
+
+- 
+  name: luong
+  email: luong@gmail.com
+  password: 12345678
+  gioitinh: nam
+  role_id: 2
+  lop_id: 2
+
+- 
+  name: tien
+  email: tien@gmail.com
+  password: 12345678
+  gioitinh: nu
+  role_id: 2
+  lop_id: 2
+
+- 
+  name: son
+  email: son@gmail.com
+  password: 12345678
+  gioitinh: nam
+  role_id: 2
+  lop_id: 3
+
+- 
+  name: chien
+  email: chien@gmail.com
+  password: 12345678
+  gioitinh: nu
+  role_id: 2
+  lop_id: 3
+
+- 
+  name: duydy
+  email: duydy@gmail.com
+  password: 12345678
+  gioitinh: nam
+  role_id: 2
+  lop_id: 4
+
+- 
+  name: messi
+  email: messi@gmail.com
+  password: 12345678
+  gioitinh: nu
+  role_id: 2
+  lop_id: 4
+
+- 
+  name: ronaldo
+  email: ronaldo@gmail.com
+  password: 12345678
+  gioitinh: nam
+  role_id: 2
+  lop_id: 5
+
+- 
+  name: congphuong
+  email: congphuong@gmail.com
+  password: 12345678
+  gioitinh: nu
+  role_id: 2
+  lop_id: 5
+
+lop_list: 
+-
+  tenlop: 12T1
+  khoa_id: 1
+
+-
+  tenlop: 12T2
+  khoa_id: 1
+
+-
+  tenlop: 12TDH1
+  khoa_id: 2
+
+-
+  tenlop: 12TDH2
+  khoa_id: 2
+
+-
+  tenlop: 12MT1
+  khoa_id: 3
+
+-
+  tenlop: 12MT2
+  khoa_id: 3
+
+khoa_list:
+-
+  tenkhoa: cong nghe thong tin
+
+-
+  tenkhoa: tu dong hoa
+
+-
+  tenkhoa: moi truong
+
+diemThi_list:
+- 
+  monhoc_id: 1
+  user_id: 2
+  lanthi: 1
+  diemthi: 9
+  loaithi_id: 1
+  thoigian: 01/06/2015 14:59:59
+
+-
+  monhoc_id: 2
+  user_id: 3
+  lanthi: 2
+  diemthi: 7
+  loaithi_id: 1
+  thoigian: 02/06/2015 14:59:59
+
+-
+  monhoc_id: 3
+  user_id: 4
+  lanthi: 4
+  diemthi: 8
+  loaithi_id: 2
+  thoigian: 02/06/2015 14:59:59
+
+-
+  monhoc_id: 3
+  user_id: 3
+  lanthi: 4
+  diemthi: 4
+  loaithi_id: 1
+  thoigian: 01/06/2015 14:59:59
+
+loaithi_list:
+-
+  name: thu
+  desc: thi thu
+
+-
+  name: thiet
+  desc: thi thiet
+
+monhoc_list:
+-
+  tenmonhoc: toan
+  sotinchi: 3
+
+-
+  tenmonhoc: ly
+  sotinchi: 4
+
+-
+  tenmonhoc: hoa
+  sotinchi: 2
