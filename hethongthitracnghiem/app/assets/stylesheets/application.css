@@ -31,3 +31,8 @@
 .well{
 background-color: rgba(39, 174, 96, 0.6);
 }
+.top{
+	padding-top: 3%;
+	padding-left: 30%;
+	padding-right: 30%;
+}
