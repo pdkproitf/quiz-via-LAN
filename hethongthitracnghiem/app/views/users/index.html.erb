@@ -3,4 +3,12 @@
 <%= image_tag("Screenshot from 2015-06-23 13:21:41.png", :width => 1500 ,:height => 700) if "Screenshot from 2015-06-23 13:21:41.png".present? %>
 </p>
  -->
- sdjabsdjbajsbjsbdsadbaskdbsandksaj
+<%(@distion.size).times do |index|%>
+<br>
+<%=@distion[index]%>
+<% hashvalue = @hash[@distion[index]].split("\n") %>
+<%(hashvalue.size).times do |value|%>
+<br>
+<%=hashvalue[value+1]%>
+<%end%>
+<%end%>
