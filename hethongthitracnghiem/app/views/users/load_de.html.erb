@@ -1,0 +1,11 @@
+
+<%(@distion.size).times do |index|%>
+<br>
+<%=@distion[index]%>
+<% hashvalue = @hash[@distion[index]].split("\n") %>
+<%hashvalue.shift%>
+<%(hashvalue.size).times do |value|%>
+<br>
+<%=hashvalue[value]%>
+<%end%>
+<%end%>
