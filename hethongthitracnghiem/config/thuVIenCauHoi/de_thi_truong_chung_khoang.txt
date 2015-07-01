@@ -647,7 +647,7 @@ a) I & II
 b) II & III
 c) I, II, II
 d) Tất cả đều sai
-14Câu 108: Chức năng của hệ thống đăng ký, lưu ký, thanh toán bù trừ CK
+-Câu 108: Chức năng của hệ thống đăng ký, lưu ký, thanh toán bù trừ CK
 I. Quản lý các CK lưu lý của khách hàng
 II. Ghi nhận quyền sở hữu
 III. Cungcấp các thông tin về CK bị giả mạo, mất cắp
