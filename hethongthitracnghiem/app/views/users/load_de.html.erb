@@ -1,11 +1,16 @@
-
-<%(@distion.size).times do |index|%>
+<%= form_for(@Dapan="", url: user_ket_qua_path(current_user)) do |f| %>
+<%@cauhoi.each do |index|%>
 <br>
-<%=@distion[index]%>
-<% hashvalue = @hash[@distion[index]].split("\n") %>
-<%hashvalue.shift%>
-<%(hashvalue.size).times do |value|%>
+	<%=f.label "#{index}"%>
+	<%id_ch= Cauhoi.find_by_cauhoi(index).id%>
+	<%@dapan = Dapan.where(cauhoi_id: id_ch)%>
+	<%@dapan.each do |da|%>
+		<br>
+	<%=f.radio_button :"#{id_ch}", da.id,:checked => false%>
+	<%= da.dapan%>
+	<%end%>
+  	<br>
+<%end%>
 <br>
-<%=hashvalue[value]%>
-<%end%>
-<%end%>
+  <%= f.submit("submit") %>
+<% end %>

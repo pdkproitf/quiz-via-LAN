@@ -3,25 +3,6 @@
 <%= image_tag("Screenshot from 2015-06-23 13:21:41.png", :width => 1500 ,:height => 700) if "Screenshot from 2015-06-23 13:21:41.png".present? %>
 </p>
  -->
-<%= form_for(@dapan, url: user_load_de_path(current_user)) do |f| %>
-
-
-<%@distion.each do |index|%>
+<%= link_to"load_de", user_load_de_path(current_user) if current_user!=nil%>
 <br>
-	<%=f.label "#{index}"%>
-	<% hashvalue = @hash[index].split("\n") %>
-	<%hashvalue.shift%>
-		<%hashvalue.each do |da| %>
-		<br>
-		<%=f.radio_button :theme, da%>
-		<%=f.label "#{da}"%>
-  	<% end %>
-  	<br>
-<%end%>
-
-
-  <%= f.submit("load_de") %>
-<% end %>
-
-
-
+<%= link_to"update cau hoi", user_dua_vao_db_path(current_user) if current_user!=nil%>

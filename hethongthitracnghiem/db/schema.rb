@@ -11,7 +11,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150629113543) do
+ActiveRecord::Schema.define(version: 20150701071852) do
+
+  create_table "cauhois", force: :cascade do |t|
+    t.text "cauhoi", limit: 65535
+  end
+
+  create_table "dapandungs", force: :cascade do |t|
+    t.integer "cauhoi_id", limit: 4
+    t.text    "dapandung", limit: 65535
+  end
+
+  create_table "dapans", force: :cascade do |t|
+    t.integer "cauhoi_id", limit: 4
+    t.text    "dapan",     limit: 65535
+  end
 
   create_table "diems", force: :cascade do |t|
     t.integer  "monhoc_id",  limit: 4, default: 0, null: false
@@ -19,7 +33,7 @@ ActiveRecord::Schema.define(version: 20150629113543) do
     t.integer  "lanthi",     limit: 4, default: 0, null: false
     t.integer  "diemthi",    limit: 4, default: 0, null: false
     t.integer  "loaithi_id", limit: 4, default: 0, null: false
-    t.datetime "time"
+    t.datetime "thoigian"
   end
 
   create_table "khoas", force: :cascade do |t|
@@ -32,7 +46,7 @@ ActiveRecord::Schema.define(version: 20150629113543) do
   end
 
   create_table "lops", force: :cascade do |t|
-    t.string  "ten",     limit: 255, default: "", null: false
+    t.string  "tenlop",  limit: 255, default: "", null: false
     t.integer "khoa_id", limit: 4,   default: 0,  null: false
   end
 
