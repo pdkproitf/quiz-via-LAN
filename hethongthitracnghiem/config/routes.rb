@@ -2,7 +2,9 @@ Rails.application.routes.draw do
   devise_for :users
 
   resources :users do
-    post "load_de", to: "users#load_de"
+    get "load_de", to: "users#load_de"
+    post "ket_qua"
+    get "dua_vao_db",to: "users#dua_vao_db"
   end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
