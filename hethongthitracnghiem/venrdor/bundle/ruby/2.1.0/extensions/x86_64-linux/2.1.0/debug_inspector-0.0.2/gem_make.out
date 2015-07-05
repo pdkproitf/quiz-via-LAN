@@ -1,0 +1,12 @@
+/usr/bin/ruby2.1 -r ./siteconf20150705-24193-1uh3syn.rb extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.so ./.gem.20150705-24193-kmnyds
+installing default debug_inspector libraries

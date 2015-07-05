@@ -1,0 +1,29 @@
+<% if @cauhoi.blank? %>
+khong co san de
+<% else %>
+<%= form_for(@Dapan="", url: action_ket_qua_path(params[:action_id].to_i)) do |f| %>
+<%count=1%>
+<%@cauhoi.each do |index|%>
+<div class="cauhoi">
+  <h1>
+  <%=f.label "Câu #{count}#{index}"%>
+  <%count = count+1%>
+  </h1>
+  <%id_ch= Cauhoi.find_by_cauhoi(index).id%>
+  <%@dapan = Dapan.where(cauhoi_id: id_ch)%>
+    <%@dapan.each do |da|%>
+    <div class="col-3 cauhoix">
+    <p><%=f.radio_button :"#{id_ch}", da.id,:checked => false%>
+    <%= da.dapan%>
+    </p>
+    </div>
+    <%end%>
+  </div>
+    <br>
+<%end%>
+<br>
+  <%= f.submit("submit",:class => "btn btn-info btn-md")%>
+<br>
+<br>
+<% end %>
+<%end%>
