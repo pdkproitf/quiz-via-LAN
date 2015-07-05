@@ -97,11 +97,8 @@ class ActionsController < ApplicationController
       Cauhoi.update_ch(@distion,params[:action_id].to_i)#lay id mon hoc
       Dapan.update_ch(@distion,@hash)
       Dapandung.update_da(@distion,@dapandung)
-      
-    else
-      redirect_to action_path(params[:action_id].to_i)
   end
-    
+    redirect_to action_show_path(params[:action_id].to_i)
   end
   
 end
