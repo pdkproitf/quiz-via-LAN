@@ -1,0 +1,19 @@
+<%= form_for(@Dapan="", url: action_them_cau_hoi_path(params[:action_id].to_i)) do |f| %>
+ <div class="cangiuacho_text">
+ 	chú ý! bạn có thể thêm data cho db bằng 2 cách
+ 	<br>cách 1: thêm trực tiếp trong db
+ 	<br>
+ 	cách 2 bạn có thể lưu câu hỏi với định dạng .txt [filename.txt] rồi sau đó trỏ tới vị trí file.
+ 	<br>(ĐỊNH ĐẠNG FILE: đầu mỗi câu hỏi phải để [Câu] và không có số
+ 	<br>- kết thúc câu hỏi phải có dấu chấm hỏi
+ 	<br>- giua các đáp án phải xuống dòng
+ 	<br>- kết thúc đáp án cuối cùng bằng dấu chấm hỏi sau đó là đáp án đúng)
+ </div>
+ <br>
+ <div class="cangiua">
+    <%= f.label :file_txt %>
+    <%= f.file_field :file_txt %>
+  <br>
+    <%= f.submit "them",:class => "btn btn-info btn-md"%>
+ </div>
+<%end%>

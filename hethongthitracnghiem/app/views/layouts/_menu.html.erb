@@ -1,0 +1,15 @@
+<div class="menu-wrap">
+    <nav class="menu">
+        <ul class="clearfix">
+         <ul id="coolMenu"> 
+              <% @menu= Monhoc.all%>
+              <%@menu.each do |categories|%>  
+                <li>
+                <%= link_to "#{categories.tenmonhoc}".upcase, action_show_path(categories.id)%>
+                </li>
+          <% end %>
+          </ul>
+        </ul>
+    </nav>
+</div>
+

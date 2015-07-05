@@ -14,8 +14,10 @@
  *= require_tree .
  *= require_self
  */
+
 .cangiua{
-	padding-left: 40%
+	padding-left: 35%;
+    color: white;
 }
 
 .backgrounds{
@@ -24,15 +26,245 @@
 	font-family:  verdana, arial, helvetica, sans-serif;
 	font-size: 13px;
 	line-height: 18px;
-	background-image: url('cute-wallpaper-502.jpg');
+	background-image: url('imagess.jpeg');
 	background-repeat: repeat;
-	background-size: 100%
+
 }
-.well{
-background-color: rgba(39, 174, 96, 0.6);
-}
+
 .top{
-	padding-top: 3%;
-	padding-left: 25%;
+	padding-top: 2%;
+	padding-left: 30%;
 	padding-right: 25%;
+}
+
+.cauhoix p:hover {
+    background-color: #00ddcc;
+}
+/*hien thi cau hoi*/
+.cauhoi{
+	background-color: #ffc
+}
+
+.cauhoi h1 {
+	line-height: 18px;
+	font-size: 15px;
+	line-height: 20px;
+    color: #008880;
+}
+
+.header h1 a{
+	text-decoration: none;
+	
+}
+.header{
+	background-image: url('images.jpeg');
+	position: absolute;
+	top: 0px;
+	width: 100%; 
+
+}
+body {
+    font-family: Tahoma,Arial,sans-serif;
+    font-size: 15px;
+    color: #A9834F;
+    line-height: 20px;
+    padding: 0;
+    margin: 0;
+}
+.login{
+position: absolute;
+top: 1px;
+margin-left: 84%;
+text-align: center;
+}
+/*----- lam menu -----*/
+.toggle-nav {
+    display:none;
+}
+ 
+/*----- Menu -----*/
+@media screen and (min-width: 860px) {
+    .menu {
+        width:100%;
+        padding:10px 18px;
+        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        border-radius:3px;
+        background:#303030;
+        padding-top: 6%
+    }
+}
+ 
+.menu ul {
+    display:inline-block;
+}
+ 
+.menu li {
+    margin:0px 50px 0px 0px;
+    float:left;
+    list-style:none;
+    font-size:17px;
+}
+ 
+.menu li:last-child {
+    margin-right:0px;
+}
+ 
+.menu a {
+    text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+    color:#777;
+    transition:color linear 0.15s;
+}
+ 
+.menu a:hover, .menu .current-item a {
+    text-decoration:none;
+    color:#66a992;
+}
+ 
+/*----- Search -----*/
+.search-form {
+    float:right;
+    display:inline-block;
+}
+ 
+.search-form input {
+    width:200px;
+    height:30px;
+    padding:0px 8px;
+    float:left;
+    border-radius:2px 0px 0px 2px;
+    font-size:13px;
+}
+ 
+.search-form button {
+    height:30px;
+    padding:0px 7px;
+    float:right;
+    border-radius:0px 2px 2px 0px;
+    background:#66a992;
+    font-size:13px;
+    font-weight:600;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.3);
+    color:#fff;
+}
+ 
+/*----- de lam menu -----*/
+@media screen and (max-width: 1150px) {
+    .wrap {
+        width:90%;
+    }
+}
+ 
+@media screen and (max-width: 970px) {
+    .search-form input {
+        width:120px;
+    }
+}
+ 
+@media screen and (max-width: 860px) {
+    .menu {
+        position:relative;
+        display:inline-block;
+    }
+ 
+    .menu ul.active {
+        display:none;
+    }
+ 
+    .menu ul {
+        width:100%;
+        position:absolute;
+        top:120%;
+        left:0px;
+        padding:10px 18px;
+        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        border-radius:3px;
+        background:#303030;
+    }
+ 
+    .menu ul:after {
+        width:0px;
+        height:0px;
+        position:absolute;
+        top:0%;
+        left:22px;
+        content:'';
+        transform:translate(0%, -100%);
+        border-left:7px solid transparent;
+        border-right:7px solid transparent;
+        border-bottom:7px solid #303030;
+    }
+ 
+    .menu li {
+        margin:5px 0px 5px 0px;
+        float:none;
+        display:block;
+    }
+ 
+    .menu a {
+        display:block;
+    }
+ 
+    .toggle-nav {
+        padding:20px;
+        float:left;
+        display:inline-block;
+        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        border-radius:3px;
+        background:#303030;
+        text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+        color:#777;
+        font-size:20px;
+        transition:color linear 0.15s;
+    }
+ 
+    .toggle-nav:hover, .toggle-nav.active {
+        text-decoration:none;
+        color:#66a992;
+    }
+ 
+    .search-form {
+        margin:12px 0px 0px 20px;
+        float:left;
+    }
+ 
+    .search-form input {
+        box-shadow:-1px 1px 2px rgba(0,0,0,0.1);
+    }
+}
+/* de chia colum tren trang*/
+.newspaper {
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+}
+/*de lam khung*/
+.khung {
+	background-image: url('images1.jpeg');
+    width: 280px;
+    height: 150px;    
+    border: 2px solid #FF1493;
+	text-align: left;
+	padding-left: 30px;
+	padding-top: 20px;
+	font-size:15px;
+	color: #FF1493;
+    font-family: serif;
+}
+.khung2 {
+    background-image: url('images1.jpeg');
+    width: 280px;
+    height: 150px;    
+    border: 2px solid #FF1493;
+    text-align: center;
+    padding-top: 47px;
+    font-size:15px;
+    color: #FF1493;
+    font-family: serif;
+}
+.cangiuacho_text{
+    padding-left: 10%;
+    text-align: left;
+    color: #FF1493;
+    font-family: serif;
+    font-size: 15px
 }

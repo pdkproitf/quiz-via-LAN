@@ -1,0 +1,240 @@
+Câu : Anh (chị) hiểu Virus tin học là gì ?
+A. Là một chương trình máy tính do con người tạo ra
+B. Có khả năng phá hoại đối với các sản phẩm tin học
+C. Có khả năng tự dấu kín, tự sao chép để lây lan
+D. Tất cả đều đúng?
+D. Tất cả đều đúng
+Câu : Khi đang làm việc với WinWord (Excel), nếu lưu tệp vào đĩa, thì tệp đó ?
+A. Luôn luôn ở trong thư mục OFFICE
+B. Luôn luôn ở trong thư mục My Documents
+C. Bắt buộc ở trong thư mục WINWORD (EXCEL )
+D. Cả 3 câu đều sai?
+D. Cả 3 câu đều sai
+Câu : Trong soạn thảo Winword, công dụng của tổ hợp Ctrl - F là :?
+A. Lưu tệp văn bản vào đĩa 
+B. Tạo tệp văn bản mới
+C. Chức năng tìm kiếm trong soạn thảo
+D. Định dạng trang?
+C. Chức năng tìm kiếm trong soạn thảo
+Câu : Trong bảng tính Excel, tại ô A2 có sẵn dãy kí tự "1Angiang2". Nếu sử dụng nút điền để điền dữ liệu đến các cột B2, C2, D2, E2; thì kết quả nhận được tại ô E2 là:?
+A. 1Angiang2 
+B. 5Angiang6 
+C. 5Angiang2 
+D. 1Angiang6?
+A. 1Angiang2 
+Câu : Trong Windows, khi xóa file hoặc folder thì nó được lưu trong Recycle Bin, muốn xóa hẳn file hoặc folder ta bấm tổ hợp phím ?
+A. Ctrl+Del 
+B. Cả 3 câu đều sai 
+C. Alt+Del 
+D. Shift+Del?
+B. Cả 3 câu đều sai 
+Câu : Khi đang sử dụng Windows, để lưu nội dung màn hình vào bộ nhớ Clipboard ta sử dụng các phím nào?
+A. Ctrl+C 
+B. Ctrl+Ins 
+C. Print Screen
+D. ESC?
+C. Print Screen
+Câu : Trong khi soạn thảo văn bản, nếu kết thúc 1 đoạn (Paragraph) và muốn sang 1 đoạn mới :?
+A. Bấm tổ hợp phím Ctrl - Enter 
+B. Bấm phím Enter
+C. Bấm tổ hợp phím Shift - Enter 
+D. Word tự động, không cần bấm phím?
+A. Bấm tổ hợp phím Ctrl - Enter 
+Câu : Trong khi làm việc với Excel, để nhập vào công thức tính toán cho một ô, trước hết ta phải gõ:?
+A. Dấu chấm hỏi 
+B. Dấu đô la ($)
+C. Dấu hai chấm (:)  
+D. Dấu bằng (= )?
+D. Dấu bằng (= )
+Câu : Trong Windows, có thể sử dụng chương trình nào như một máy tính bỏ túi ?
+A. WinWord 
+B. Notepad 
+C. Calculator
+D. Excel?
+C. Calculator
+Câu : Anh (chị) sử dụng chương trình nào của Windows để quản lý các tệp và thư mục?
+A. Microsoft Office 
+B. Accessories
+C. Control Panel 
+D. Windows Explorer?
+D. Windows Explorer
+Câu : Trong bảng tính Excel, tại ô A2 có sẵn dãy ký tự “TINHOC” ; Tại ô B2 gõ vào công thức =VALUE(A2) thì nhận được kết quả:?
+A. Tinhoc 
+B. #VALUE!
+C. TINHOC 
+D. 6?
+C. TINHOC 
+Câu : Trong WinWord, để soạn thảo một công thức toán học phức tạp, ta thường dùng công cụ :?
+A. Microsoft Equation
+B. Ogranization Art
+C. Ogranization Chart 
+D. Word Art?
+A. Microsoft Equation
+Câu : Trong Windows, để thiết đặt lại hệ thống, ta chọn chức năng:?
+A. Control Windows 
+B. Control Panel
+C. Control System 
+D. Control Desktop?
+B. Control Panel
+Câu : Trong Windows, muốn tìm kiếm tệp hay thư mục, ta thực hiện:?
+A. Start - Search
+B. Tools - Search
+C. File - Search 
+D. Windows - Search?
+D. Windows - Search
+Câu : Trong Excel, tại ô A2 có giá trị là dãy ký tự “TINHOC”. Tại ô B2 gõ công thức =RIGHT(A2;3) thì nhận được kết quả:?
+A. 3 
+B. HOC
+C. Tinhoc 
+D. TIN?
+B. HOC
+Câu : Hãy chọn ra tên thiết bị mạng?
+A. Webcam 
+B. USB 
+C. Hub
+D. UPS?
+C. Hub
+Câu : Trong soạn thảo Word, muốn chèn các kí tự đặc biệt vào văn bản, ta thực hiện:?
+A. Insert - Symbol
+B. Format - Symbol
+C. Tools - Symbol 
+D. View - Symbol?
+A. Insert - Symbol
+Câu : Trong chế độ tạo bảng (Table) của phần mềm Winword, muốn tách một ô thành nhiều ô, ta thực hiện:?
+A. Table - Merge Cells 
+B. Table - Split Cells
+C. Tools - Split Cells 
+D. Table - Cells?
+B. Table - Split Cells
+Câu : Trong Windows, từ Shortcut có ý nghĩa gì?
+A. Xóa một đối tượng được chọn tại màn hình nền
+B. Tạo đường tắt để truy cập nhanh
+C. Đóng các cửa sổ đang mở
+D. Tất cả đều sai?
+B. Tạo đường tắt để truy cập nhanh
+Câu : Trong Winword, để sao chép một đoạn văn bản vào Clipboard, ta đánh dấu đoạn văn; sau đó :?
+A. Chọn menu lệnh Edit - Copy 
+B. Bấm tổ hợp phím Ctrl - C
+C. Cả 2 câu a và b đều đúng
+D. Cả 2 câu a và b đều sai?
+B. Bấm tổ hợp phím Ctrl - C
+Câu : Các hệ điều hành thông dụng hiện nay thường được lưu trữ :?
+A. Trong CPU 
+B. Trong RAM
+C. Trên bộ nhớ ngoài
+D. Trong ROM?
+A. Trong ROM 
+Câu : Trong bảng tính Excel, điều kiện trong hàm IF được phát biểu dưới dạng một phép so sánh. Khi cần so sánh khác nhau thì sử dụng kí hiệu nào?
+A. >< 
+B. & 
+C. # 
+D. <>?
+D. <>
+Câu : Trong khi đang soạn thảo văn bản Word, tổ hợp phím Ctrl + V thường được sử dụng để :?
+A. Cắt một đoạn văn bản
+B. Cắt và sao chép một đoạn văn bản
+C. Dán một đoạn văn bản từ Clipboard
+D. Sao chép một đoạn văn bản?
+C. Dán một đoạn văn bản từ Clipboard
+Câu : Để máy tính có thể làm việc được, hệ điều hành cần nạp vào:?
+A. Bộ nhớ ngoài
+B. Chỉ nạp vào bộ nhớ trong khi chạy chương tr?nh ứng dụng
+C. Ram
+D. Tất cả đều sai?
+C. Ram
+Câu : Anh (chị) hiểu B-Virus là gì ?
+A. Là loại viurs tin học chủ yếu lây lan vào các mẫu tin khởi động (Boot record )
+B. Là một loại virus tin học chủ yếu lây lan vào ổ đĩa B:
+C. Là loại virus tin học chủ yếu lây lan vào các tệp của WinWord và Excel
+D. Là một loại virus tin học chủ yếu lây lan vào các bộ trữ điện?
+A. Là loại viurs tin học chủ yếu lây lan vào các mẫu tin khởi động (Boot record )
+Câu : Trong bảng tính Excel, tại ô A2 có sẵn giá trị số 25 ; Tại ô B2 gõ vào công thức =SQRT(A2) thì nhận được kết quả:?
+A. 5
+B. #VALUE! 
+C. 0 
+D. #NAME!?
+A. 5
+Câu : Người và máy tính giao tiếp thông qua :?
+A. RAM . 
+B. Bàn phím và màn hình .
+C. Hệ điều hành . 
+D. Tất cả đều đúng .?
+B. Bàn phím và màn hình .
+Câu : Trong khi làm việc với Word, tổ hợp phím tắt nào cho phép chọn tất cả văn bản đang soạn thảo:?
+A. Alt + F 
+B. Alt + A 
+C. Ctrl + F 
+D. Ctrl + A?
+D. Ctrl + A
+Câu : Trong soạn thảo Word, muốn trình bày văn bản trong khổ giấy theo hướng ngang ta chọn mục :?
+A. Landscape
+B. Right 
+C. Left 
+D. Portrait?
+D. Portrait
+Câu : Để chuẩn bị in một bảng tính Excel ra giấy ?
+A. Có thể khai báo đánh số trang in hoặc không
+B. Excel bắt buộc phải đánh số trang ở vị trí bên phải đầu mỗi trang
+C. Chỉ đánh số trang in nếu bảng tính gồm nhiều trang
+D. Vị trí của số trang luôn luôn ở góc dưới bên phải?
+Vị trí của số trang luôn luôn ở góc dưới bên phải
+Câu : Dưới góc độ địa lý, mạng máy tính được phân biệt thành:?
+A. Mạng cục bộ, mạng toàn cục, mạng toàn cầu
+B. Mạng cục bộ, mạng diện rộng, mạng toàn cầu
+C. Mạng cục bộ, mạng diện rộng, mạng toàn cục
+D. Mạng diện rộng, mạng toàn cầu, mạng toàn cục?
+B. Mạng cục bộ, mạng diện rộng, mạng toàn 
+Câu : Giả sử ngày hệ thống của máy tính là: 8/18/2008; Khi đó tại ô A2 gõ vào công thức =Today()-1 thì nhận được kết quả là:?
+A. 0 
+B. #VALUE! 
+C. #NAME! 
+D. 8/17/2008?
+D. 8/17/2008
+Câu : Trong soạn thảo Winword, muốn định dạng văn bản theo kiểu danh sách, ta thực hiện:?
+A. Format - Bullets and Numbering
+B. Tools - Bullets and Numbering
+C. Edit - Bullets and Numbering 
+D. File - Bullets and Numbering?
+A. Format - Bullets and Numbering
+Câu : Trong soạn thảo văn bản Word, để đóng một hồ sơ đang mở, ta thực hiện :?
+A. File - Close
+B. File - Exit
+C. File - New
+D. File - Save?
+A. File - Close
+Câu : Trong bảng tính Excel, tại ô A2 có sẵn giá trị số không (0); Tại ô B2 gõ vào công thức =5/A2 thì nhận được kết quả:?
+A. 5
+B. 0
+C. #DIV/0!
+D. #VALUE!?
+C. #DIV/0!
+Câu : Khi đang làm việc với Excel, tổ hợp phím nào cho phép ngay lập tức đưa con trỏ về ô đầu tiên (ô A1) của bảng tính ?
+A. Alt+Home
+B. Ctrl+Home
+C. Shift+Home
+D. Shift+Ctrl+Home?
+B. Ctrl+Home
+Câu : Trong Windows, phím tắt nào giúp anh (chị) truy cập nhanh menu Start để có thể Shutdown máy ?
+A. Alt+Esc
+B. Ctrl+Esc
+C. Ctrl+Alt+Esc
+D. Không có cách nào khác, đành phải nhấn nút Power Off?
+B. Ctrl+Esc
+Câu : Câu nào sau đây sai Khi nhập dữ liệu vào bảng tính Excel thì:?
+A. Dữ liệu kiểu số sẽ mặc nhiên căn thẳng lề trái
+B. Dữ liệu kiểu thời gian sẽ mặc nhiên căn thẳng lề phải
+C. Dữ liệu kiểu ngày tháng sẽ mặc nhiên căn thẳng lề phải
+D. Dữ liệu kiểu kí tự sẽ mặc nhiên căn thẳng lề trái?
+A. Dữ liệu kiểu số sẽ mặc nhiên căn thẳng lề trái
+Câu : Khi đang làm việc với Windows, muốn xem tổ chức các tệp và thư mục trên đĩa, ta có thể sử dụng :?
+A. My Computer hoăc My Network Places
+B. Windows Explorer hoặc Recycle Bin
+C. My Computer hoặc Recycle Bin
+D. My Computer hoặc Windows Explorer?
+D. My Computer hoặc Windows Explorer
+Câu : Trên màn hình Word, tại dòng có chứa các hình : tờ giấy trắng, đĩa vi tính, máy in, ..., được gọi là:?
+A. Thanh công cụ định dạng
+B. Thanh công cụ chuẩn
+C. Thanh công cụ vẽ
+D. Thanh công cụ bảng và đường viền?
+B. Thanh công cụ chuẩn

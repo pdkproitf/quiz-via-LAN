@@ -43,5 +43,8 @@ group :development, :test do
   gem 'spring'
   gem 'devise'
   gem 'pry-rails'
+  gem 'will_paginate'
+  gem 'carrierwave'
+  gem 'cancancan', '~> 1.9'
 end
 

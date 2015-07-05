@@ -1,0 +1,4 @@
+<%=link_to "list user",user_index_path(current_user) if current_user!=nil&&current_user.admin?%>
+<%if current_user==nil%>
+	vui long dang nhap de thuc hien chuc nang nay
+<%end%>

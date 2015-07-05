@@ -1,8 +1,45 @@
-<!-- <p>
-  <strong>Picture:</strong>
-<%= image_tag("Screenshot from 2015-06-23 13:21:41.png", :width => 1500 ,:height => 700) if "Screenshot from 2015-06-23 13:21:41.png".present? %>
-</p>
- -->
-<%= link_to"load_de", user_load_de_path(current_user) if current_user!=nil%>
+<style>
+table, td, th {
+    border: 2px solid white;
+    text-align: center;
+    color: black;
+    font-size: 15px
+}
+
+th{
+    background-color: green;
+    color: black;
+}
+</style>
+<marquee onmouseover="this.stop()" onmouseout="this.start()" scrollamount="2" style = "color:blue"  direction="right">DANH SACH USER FULLL</marquee>
+
+<table style="width:80%"; style="height:100%">
+ <thead>
+  
+   <tr>
+       <th>id</th>
+      <th><th>name</th></th>
+      <th><th>email</th></th>
+      <th><th>gioitinh</th></th>
+     <th>role</th>
+      <th colspan="2"></th>
+    </tr>
+  </thead>
+
+ <tbody>
+   <% @user.each do |student| %>
+     <tr>
+      	<td><%= @id=student.id %></td>
+    	<td><td><%=student.name%> </td></td>
+        <td><td><%= student.email %></td></td>
+         <td><td><%= student.gioitinh %></td></td>
+        <td><%= Role.find_by_id(student.role_id).name %></td>
+
+        <td><%= link_to 'edit', user_edit_path(student) if current_user!=nil %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
 <br>
-<%= link_to"update cau hoi", user_dua_vao_db_path(current_user) if current_user!=nil%>
+<br>
+<%= will_paginate @user %>
