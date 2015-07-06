@@ -106,7 +106,7 @@ b. Lãi suất trái phiếu X = lãi suất trái phiếu Y
 c. Lãi suất trái phiếu X < lãi suất trái phiếu Y
 d. Còn tùy trường hợp cụ thể.?
 c. Lãi suất trái phiếu X < lãi suất trái phiếu Y
-Câu 1: Người bán khống chứng khoán thực hiện hành động bán khống khi họ dự đoán giá của cổ phiếu:?
+Câu : Người bán khống chứng khoán thực hiện hành động bán khống khi họ dự đoán giá của cổ phiếu:?
 a. Tăng lên
 b. Giảm đi
 c. Không thay đổi
@@ -115,7 +115,7 @@ b. Giảm đi
 Câu : Giả sử cổ phiếu A có giá đóng cửa ở phiên giao dịch trước là: 101.000 đồng, theo quy chế giao dịch ở
 Sở giao dịch chứng khoán Tp.HCM (Hose) hiện nay, mức giá nào sẽ là mức đặt lệnh hợp lệ trong các mức
 giá sau:?
-3a. 107.500 đồng
+a. 107.500 đồng
 b. 100.000 đồng
 c. 106.050 đồng
 d. 95.000 đồng?

@@ -16,9 +16,9 @@ class User < ActiveRecord::Base
     User.find_by_id(id)   
   end
 
-  def self.xu_ly_edit(id,name,email,role_id)
+  def self.xu_ly_edit(id,name,email,gioitinh,role_id)
     if User.find_by_id(id)
-      User.find_by_id(id).update(id: id,name: name, email: email,role_id: role_id)
+      User.find_by_id(id).update(id: id,name: name, email: email,gioitinh: gioitinh,role_id: role_id)
     end
   end
 

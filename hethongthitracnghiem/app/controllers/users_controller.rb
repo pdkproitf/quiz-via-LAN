@@ -21,7 +21,7 @@ class UsersController < ApplicationController
   def update#ham de xu ly edit udate cac thong tin xuong db
     @user = params[:user]
     @rl = Role.edit_find(params[:role_name])
-    User.xu_ly_edit(params[:id].to_i,@user[:name],@user[:email],@rl.id)
+    User.xu_ly_edit(params[:id].to_i,@user[:name],@user[:email],params[:gioitinh],@rl.id)
     redirect_to users_path
   end
 
