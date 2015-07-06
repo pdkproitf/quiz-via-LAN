@@ -18,6 +18,17 @@
 
   <div class="field">
   <br>
+  <%@gioitinh=["nam","nu"]%>
+  <%= f.label :gioitinh %><br>
+    <%= select_tag(:gioitinh, options_for_select(
+   @gioitinh.collect{|u| 
+     u }
+     ))
+ %>
+  </div>
+
+  <div class="field">
+  <br>
   <%= f.label :role_name %><br>
     <%= select_tag(:role_name, options_for_select(
    @role.collect{|u| 

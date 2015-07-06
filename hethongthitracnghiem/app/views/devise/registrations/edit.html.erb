@@ -13,6 +13,17 @@
     <%= f.email_field :email, autofocus: true %>
   </div>
 
+<div class="field">
+  <br>
+  <%@gioitinh=["nam","nu"]%>
+  <%= f.label :gioitinh %><br>
+    <%= select_tag(:gioitinh, options_for_select(
+   @gioitinh.collect{|u| 
+     [u] }
+     ))
+ %>
+  </div>
+
   <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
     <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
   <% end %>

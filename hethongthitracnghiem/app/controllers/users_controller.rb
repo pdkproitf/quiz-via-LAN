@@ -6,7 +6,7 @@ class UsersController < ApplicationController
   end
 
   def edit#bat su kien edit hien thi thong tin tai cot can sua,sau khi ket thuc se nhay den update
-    if ((params[:user_id].to_i==current_user.id)||(current_user.role_id==1))
+    if current_user!=nil&&((params[:user_id].to_i==current_user.id)||(current_user.role_id==1))
       @user = User.edit(params[:user_id])
       if current_user.role_id == 2
         @role = Role.where(:id => 2)

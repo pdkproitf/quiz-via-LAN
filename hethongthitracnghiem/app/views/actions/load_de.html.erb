@@ -11,12 +11,49 @@ khong co san de
   </h1>
   <%id_ch= Cauhoi.find_by_cauhoi(index).id%>
   <%@dapan = Dapan.where(cauhoi_id: id_ch)%>
-    <%@dapan.each do |da|%>
-    <div class="col-3 cauhoix">
-    <p><%=f.radio_button :"#{id_ch}", da.id,:checked => false%>
-    <%= da.dapan%>
-    </p>
-    </div>
+  <%c=[];count_da = 0%>
+    <%while count_da<(@dapan.size)%>
+    <%(da = @dapan.sample)%>
+    <%unless c.include?(da.dapan);%>
+    <%if da.dapan.include?("a.")%>
+      <%da.dapan=da.dapan.sub("a.",""); end%>
+    <%if da.dapan.include?("A.")%>
+      <%da.dapan=da.dapan.sub("A.",""); end%>
+
+    <%if da.dapan.include?("b.") %>
+      <%da.dapan=da.dapan.sub("b.",""); end%>
+    <%if da.dapan.include?("B.") %>
+      <%da.dapan=da.dapan.sub("B.",""); end%>
+
+    <%if da.dapan.include?("c.") %>
+      <%da.dapan=da.dapan.sub("c.",""); end%>
+    <%if da.dapan.include?("C.") %>
+      <%da.dapan=da.dapan.sub("C.",""); end%>
+
+    <%if da.dapan.include?("d.")%>
+      <%da.dapan=da.dapan.sub("d.",""); end%>
+    <%if da.dapan.include?("D.")%>
+      <%da.dapan=da.dapan.sub("D.",""); end%>
+
+      <%count_da = count_da+1;x=""%>
+      <%case count_da
+          when count_da=1
+            x = "A"
+          when count_da=2
+            x = "B"
+          when count_da=3
+            x = "C"
+          when count_da=4
+            x = "D"
+        end%>
+      <div class="col-3 cauhoix">
+        <p><%=f.radio_button :"#{id_ch}", da.id,:checked => false%>
+          <%c.push(da.dapan)%>
+          <%= "#{x}:"%>
+          <%=da.dapan%>
+        </p>
+      </div>
+    <%end%>
     <%end%>
   </div>
     <br>
