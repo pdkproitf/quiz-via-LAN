@@ -10,6 +10,9 @@ class ApplicationController < ActionController::Base
       @role =Role.all
       devise_parameter_sanitizer.for(:sign_up) << :role_id
       devise_parameter_sanitizer.for(:account_update) << :role_id
+      # 
+      devise_parameter_sanitizer.for(:sign_up) << :gioitinh
+      devise_parameter_sanitizer.for(:account_update) << :gioitinh
     end
 
 end

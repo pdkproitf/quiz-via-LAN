@@ -35,7 +35,7 @@ th{
          <td><td><%= student.gioitinh %></td></td>
         <td><%= Role.find_by_id(student.role_id).name %></td>
 
-        <td><%= link_to 'edit', user_edit_path(student) if current_user!=nil %></td>
+        <td><%= link_to 'edit', user_edit_path(student) if current_user!=nil&&current_user.role_id==1 %></td>
       </tr>
     <% end %>
   </tbody>

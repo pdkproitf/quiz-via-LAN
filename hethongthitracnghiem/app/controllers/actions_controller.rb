@@ -48,7 +48,11 @@ class ActionsController < ApplicationController
     }
     @diem = @count*10.0/25
     @mon = Monhoc.find_by_id(params[:action_id].to_i).tenmonhoc
-    lanthi = Diem.where(user_id: current_user.id,monhoc_id: params[:action_id].to_i).order(lanthi: :asc).last.lanthi+1
+    if Diem.where(user_id: current_user.id,monhoc_id: params[:action_id].to_i).empty?
+      lanthi =1
+    else
+      lanthi = Diem.where(user_id: current_user.id,monhoc_id: params[:action_id].to_i).order(lanthi: :asc).last.lanthi+1
+    end
     Diem.luu_ket_qua(current_user.id,params[:action_id].to_i,lanthi,@diem)
   end
 
@@ -75,8 +79,8 @@ class ActionsController < ApplicationController
               @distion.push(cc[0])
               key = cc[0]
               value = cc[1]
-              if cc[2].respond_to?("gsub('\n', '')")
-                @dapandung[key]=cc[2].gsub("\n", '')
+              if cc[2]!=nil&&cc[2].include?("\n")
+                @dapandung[key]=cc[2].gsub("\n", "")
               else
                 @dapandung[key]=cc[2]
               end
