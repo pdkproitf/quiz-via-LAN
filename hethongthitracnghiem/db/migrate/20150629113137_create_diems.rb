@@ -6,7 +6,7 @@ class CreateDiems < ActiveRecord::Migration
       t.integer :lanthi,              null: false, default: 0
       t.integer :diemthi,              null: false, default: 0
       t.integer :loaithi_id,              null: false, default: 0
-      t.datetime :time
+      t.datetime :thoigian
     end
   end
 end
