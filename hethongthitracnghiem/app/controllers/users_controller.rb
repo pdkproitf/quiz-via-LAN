@@ -1,6 +1,5 @@
 class UsersController < ApplicationController
 
-
   def index
     @user = User.list(params[:page])
   end
