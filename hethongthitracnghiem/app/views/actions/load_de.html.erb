@@ -3,13 +3,6 @@ khong co san de
 <% else %>
 <%= form_for(@Dapan="", url: action_ket_qua_path(params[:action_id].to_i)) do |f| %>
 <!--  -->
-<script>
- var element = '#countDownTimer';
-   var year = <%= @deal.end.year %>;
-   var month = <%= @deal.end.month %>;
-   var day = <%= @deal.end.day %>;
-   setCountdownTimer(element, year, month, day);
-</script>
 <div id="countDownTimer"></div>
 <!--  -->
 <%count=1%>
