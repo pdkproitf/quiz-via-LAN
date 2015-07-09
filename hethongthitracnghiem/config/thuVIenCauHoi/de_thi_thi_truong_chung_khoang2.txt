@@ -4,8 +4,7 @@ b. Thu nhập phụ thuộc vào hoạt động của công ty
 c. Được quyền bầu cử tại Đại hội cổ đông
 d. Lãi suất từ vốn mà mình đầu tu vào công ty?
 d. Lãi suất từ vốn mà mình đầu tu vào công ty
-Câu : Nhà đầu tư mua 10 trái phiếu có mệnh giá 100 USD, có lãi suất danh nghĩa 6%/năm với giá 900 USD.
-Vậy hàng năm nhà đầu tư sẽ nhận được tiền lãi là:?
+Câu : Nhà đầu tư mua 10 trái phiếu có mệnh giá 100 USD, có lãi suất danh nghĩa 6%/năm với giá 900 USD.Vậy hàng năm nhà đầu tư sẽ nhận được tiền lãi là:?
 a. 60 USD
 b. 600 USD
 c. 570 USD
@@ -29,8 +28,7 @@ b. Là nơi mua bán các loại chứng khoán kém chất lượng
 c. Là nơi mua bán các chứng khoán đã phát hành
 d. Là thị trường chứng khoán kém phát triển?
 c. Là nơi mua bán các chứng khoán đã phát hành
-Câu : Hình thức bảo lãnh mà trong đó các nhà bảo lãnh phát hành cam kết sẽ mua toàn bộ chứng khoán của
-tổ chức phát hành cho dù họ có thể bán hết hay không được gọi là:?
+Câu : Hình thức bảo lãnh mà trong đó các nhà bảo lãnh phát hành cam kết sẽ mua toàn bộ chứng khoán của tổ chức phát hành cho dù họ có thể bán hết hay không được gọi là:?
 a. Bảo lãnh tất cả hoặc không
 b. Bảo lãnh với cố gắng tối đa
 c. Bảo lãnh với cam kết chắc chắn.
@@ -189,12 +187,10 @@ d. Trƣớc các cổ đông nắm giữ cổ phiếu ƣu đãi và cổ phiếu
 b. Trước thuế
 Câu : Một trong những điều kiện phát hành cổ phiếu lần đầu ra công chúng ở Việt Nam là:?
 a. Có vốn tối thiểu là 10 tỷ VND, hoạt động kinh doanh của 2 năm liền trước năm đăng ký phải có lãi.
-b. Có vốn tối thiểu là 10 tỷ USD, hoạt động kinh doanh của năm liền trƣớc năm đăng ký phát
-hành phải có lãi.
+b. Có vốn tối thiểu là 10 tỷ USD, hoạt động kinh doanh của năm liền trƣớc năm đăng ký phát hành phải có lãi.
 c. Có vốn tối thiểu là 5 tỷ VND, hoạt động kinh doanh của 2 năm liền trước năm đăng ký phải có lãi.
 d. Có vốn tối thiểu là 5 tỷ VND, hoạt động kinh doanh của năm liền trước năm đăng ký phát hành phải có lãi.?
-b. Có vốn tối thiểu là 10 tỷ USD, hoạt động kinh doanh của năm liền trƣớc năm đăng ký phát
-hành phải có lãi.
+b. Có vốn tối thiểu là 10 tỷ USD, hoạt động kinh doanh của năm liền trƣớc năm đăng ký phát hành phải có lãi.
 Câu : Tỷ lệ nắm giữ tối đa của nhà đầu tư nước ngoài đối với cổ phiếu của một tổ chức niêm yết được quy
 định theo pháp luật Việt Nam là:?
 a. 25% tổng số cổ phiếu
@@ -204,8 +200,7 @@ d. 27% tổng số cổ phiếu?
 b. 49% tổng số cổ phiếu
 Câu : Một trong những điều kiện để niêm yết trái phiếu doanh nghiệp là:?
 a. Là công ty cổ phần, công ty trách nhiệm hữu hạn, doanh nghiệp nhà nƣớc có vốn điều lệ đã góp tại thời điểm xin phép niêm yết từ 10 tỷ VND trở lên.
-b. Là công ty cổ phần, công ty trách nhiệm hữu hạn, doanh nghiệp nhà nước có vốn điều lệ đã góp tại thời điểm xin phép niêm yết từ 5 tỷ
-VND trở lên.
+b. Là công ty cổ phần, công ty trách nhiệm hữu hạn, doanh nghiệp nhà nước có vốn điều lệ đã góp tại thời điểm xin phép niêm yết từ 5 tỷ VND trở lên.
 c. Là công ty cổ phần, công ty trách nhiệm hữu hạn, doanh nghiệp nhà nước, doanh nghiệp tư nhân có vốn điều lệ đã góp tại thời điểm xin phép niêm yết từ 5 tỷ VND trở lên.
 d. Không câu nào đúng.?
 a. Là công ty cổ phần, công ty trách nhiệm hữu hạn, doanh nghiệp nhà nƣớc có vốn điều lệ đã
